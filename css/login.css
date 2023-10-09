@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #05445e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  background: #d4f1f4;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.logo-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+.card {
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 40px;
+  flex-direction: column;
+}
+.card-header {
+  color: #05445e;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.card-header h3 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  background-color: #e0e0e0 !important;
+  border-radius: 10px !important;
+  color: rgb(55, 55, 55) !important;
+}
+
+::placeholder {
+  color: rgb(55, 55, 55) !important;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input {
+  border: none !important;
+}
+
+.login-btn button {
+  padding: 10px 20px;
+  background: #75e6da !important;
+  margin-bottom: 10px;
+  border: 1px solid #75e6da !important;
+  transition: all 0.3s ease-in-out;
+  color: #05445e !important;
+  cursor: pointer;
+}
+
+.login-btn button:hover {
+  background: #05445e !important;
+  color: #75e6da !important;
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  top: 188px;
+}
+
+#register-error-message {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  top: 298px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.card-footer {
+  padding: 15px;
+}
+
+.card-footer p {
+  color: #d4f1f4;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-footer a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #75e6da;
+}
+.card-footer a:hover {
+  text-decoration: underline;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #05445e !important;
+}
